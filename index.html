@@ -3,94 +3,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Piedad's Portfolio | Digital Architect</title>
+    <title>Piedad's Creative Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;800&family=Rajdhani:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Playful and clean fonts to mimic the sticker/scrapbook style -->
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <div id="particles-js"></div>
-
-    <div class="glass-container">
-
-        <header class="glass-panel main-header">
-            <div class="glow-avatar">
-                <img src="profile.jpeg" alt="Piedad Ashanti Novi" class="profile-pic">
+    <div class="portfolio-wrapper">
+        
+        <!-- HERO HEADER -->
+        <header class="hero-section">
+            <div class="logo-area">
+                <span class="sparkle-icon">✨</span>
+                <h1 class="main-title">PORT<br><span class="highlight-title">FOLIO</span></h1>
+                <p class="tagline">Welcome to my humble home!</p>
             </div>
-            <h1 class="neon-text">Piedad Ashanti Novi</h1>
-            <p class="subtitle">ICT Specialist | Emerging Tech Architect</p>
-            <p class="loading-text">LOAD_SYSTEM::ONLINE</p>
+            <!-- Decorative house graphic placeholder -->
+            <div class="house-graphic">
+                <div class="roof"></div>
+                <div class="house-body">
+                    <div class="window"></div>
+                    <div class="door"></div>
+                </div>
+            </div>
         </header>
 
-        <section class="glass-panel bio-section">
-            <h2 class="neon-title">About_Me</h2>
-            <p class="cyber-bio">
-                <span class="highlight">Merhaba gaess.</span> Salam kenal nama ku <span class="highlight">Hanuun dobel U</span> lebih akrab dipanggil <span class="highlight">Anun or Kaneon.</span> Asal kota nya, Malang kabupaten bagian gunung Kawi. Born 21.12.2003. Future-driven ICT student at City Tech Institute. Passionate about software architecture, systems integration, and digital strategy. <span class="highlight">So enjoy and Adieuu.</span>
-            </p>
+        <!-- INTRODUCTION Grid -->
+        <main class="intro-grid">
+            
+            <!-- Left Profile Card -->
+            <div class="profile-sidebar">
+                <div class="photo-frame">
+                    <!-- Automatically loads your uploaded picture -->
+                    <img src="profile.jpeg" alt="Piedad Ashanti Novi" class="profile-image">
+                    <span class="sticker tag-blue">ICT Specialist</span>
+                    <span class="sticker tag-pink">Designer</span>
+                </div>
+                
+                <div class="connect-panel">
+                    <div class="connect-btn">Let's Connect</div>
+                    <ul class="contact-links">
+                        <li>📧 piedadashantinovi@gmail.com</li>
+                        <li>🌐 github.com/piedadashantinovi</li>
+                        <li>📸 @yourusername</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Right Bio & Skills Card -->
+            <div class="bio-content">
+                <h2 class="greet-title">Hello!</h2>
+                <p class="bio-text">
+                    I'm <strong>Piedad Ashanti Novi</strong>, an ICT specialist and designer passionate about creating charming, efficient systems and creative visuals for digital platforms. Merhaba gaess. Salam kenal nama ku Hanuun dobel U lebih akrab dipanggil Anun or Kaneon. Asal kota nya, Malang kabupaten bagian gunung Kawi. Born 21.12.2003. My work combines structured logic with thoughtful storytelling. So enjoy and Adieuu.
+                </p>
+
+                <div class="divider"></div>
+
+                <h3 class="section-subtitle">Technical Skills</h3>
+                <div class="skills-row">
+                    <span class="tool-badge badge-java">Java</span>
+                    <span class="tool-badge badge-sql">MySQL</span>
+                    <span class="tool-badge badge-html">HTML/CSS</span>
+                    <span class="tool-badge badge-canva">Canva</span>
+                    <span class="tool-badge badge-capcut">CapCut</span>
+                </div>
+
+                <div class="personal-skills-zone">
+                    <div class="skill-col">
+                        <h4>Education</h4>
+                        <ul>
+                            <li><strong>City Tech Institute</strong><br>2024 - Present<br>Information Technology</li>
+                        </ul>
+                    </div>
+                    <div class="skill-col">
+                        <h4>Personal Skills</h4>
+                        <ul>
+                            <li>✨ Attention to Detail</li>
+                            <li>🤝 Collaboration</li>
+                            <li>💬 Communication</li>
+                            <li>🚀 Adaptability</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- EXPERIENCE SECTION (Dual Aspect Panels) -->
+        <section class="experience-section">
+            <h2 class="section-title-center">Experience & Affiliation</h2>
+            
+            <div class="dual-panels">
+                <!-- Left Pastel Pink Box -->
+                <div class="panel pink-panel">
+                    <div class="panel-item">
+                        <h5>Systems Developer</h5>
+                        <p class="panel-date">2025 - Present</p>
+                        <p>Lead developer for campus inventory and automation projects.</p>
+                    </div>
+                    <div class="panel-item">
+                        <h5>Social Media Manager</h5>
+                        <p class="panel-date">2024 - 2025</p>
+                        <p>Handled visual curation, template generation, and video formatting.</p>
+                    </div>
+                </div>
+
+                <!-- Right Dark Window Panel -->
+                <div class="panel window-panel">
+                    <div class="panel-item">
+                        <h5>POS Application Deployment</h5>
+                        <p class="panel-date">Oct 2024</p>
+                        <p>Designed and built a full database-driven Java Swing retail program.</p>
+                    </div>
+                    <div class="panel-item">
+                        <h5>Research Web Administrator</h5>
+                        <p class="panel-date">Sep 2025</p>
+                        <p>Structured layout design and file distribution systems.</p>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section class="glass-panel skills-section">
-            <h2 class="neon-title">Core_Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-card">Java Development</div>
-                <div class="skill-card">MySQL Database Design</div>
-                <div class="skill-card">Web (HTML/CSS)</div>
-                <div class="skill-card">Data Analysis</div>
-                <div class="skill-card">Social Media Strategy</div>
-                <div class="skill-card">Video Editing (CapCut)</div>
-                <div class="skill-card">Design (Canva)</div>
+        <!-- TABLE OF CONTENTS (Navigation / Project Showcase) -->
+        <section class="toc-section">
+            <h2 class="toc-title">TABLE OF <br><span>CONTENT</span></h2>
+            
+            <div class="toc-buttons">
+                <a href="#" class="capsule-btn">1. BRAND IDENTITY</a>
+                <a href="#" class="capsule-btn">2. SYSTEMS LOG</a>
+                <a href="#" class="capsule-btn">3. POSTERS</a>
+                <a href="#" class="capsule-btn">4. PHOTOGRAPHY</a>
             </div>
         </section>
 
-        <section class="glass-panel showcase-section">
-            <h2 class="neon-title">Deployments_Log</h2>
-            <div class="showcase-stack">
-                <div class="log-entry project-entry">
-                    <h3>[01] POS & Sales Monitoring System</h3>
-                    <p>Java Swing, MySQL-based enterprise solution.</p>
-                </div>
-                <div class="log-entry project-entry">
-                    <h3>[02] Inventory Management System</h3>
-                    <p>Optimized database tracking and monitoring.</p>
-                </div>
-                <div class="log-entry cert-entry">
-                    <h3>[CERT] Java Fundamentals</h3>
-                    <p>Issued by Oracle Certified Associate.</p>
-                </div>
-            </div>
-        </section>
-
-        <footer class="glass-panel footer-section">
-            <div class="hobbies-area">
-                <h2 class="neon-title">Hobbies</h2>
-                <p>Coding | Photography | Gaming | Open Source</p>
-            </div>
-            <div class="social-zone">
-                <h2 class="neon-title">CONNECT</h2>
-                <div class="social-grid">
-                    <a href="https://github.com/piedadashantinovi" class="social-link cyber-button" target="_blank">GitHub</a>
-                    <a href="#" class="social-link cyber-button" target="_blank">LinkedIn</a>
-                    <a href="mailto:your.email@example.com" class="social-link cyber-button">Email</a>
-                </div>
-            </div>
-            <p class="edition-text" style="margin-top: 20px;">Edc design 2026 ←</p>
+        <footer class="portfolio-footer">
+            <p>Edc design 2026 ← Layout inspired by Keziah Mae Perez</p>
         </footer>
 
     </div>
-
-    <script>
-        const container = document.getElementById('particles-js');
-        for (let i = 0; i < 50; i++) {
-            const particle = document.createElement('div');
-            particle.classList.add('particle');
-            particle.style.width = Math.random() * 4 + 'px';
-            particle.style.height = particle.style.width;
-            particle.style.left = Math.random() * 100 + 'vw';
-            particle.style.top = Math.random() * 100 + 'vh';
-            particle.style.animationDelay = Math.random() * 10 + 's';
-            container.appendChild(particle);
-        }
-    </script>
 
 </body>
 </html>
